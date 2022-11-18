@@ -6,7 +6,7 @@ const router = require('./router');
 
 const socketIO = require('socket.io')(http,{
     cors: {
-        origins: ['http://localhost:3000']
+        origins: ['https://task-online-chat.herokuapp.com/']
     }
 });
 const port = process.env.PORT || 5555;

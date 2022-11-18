@@ -7,7 +7,7 @@ import io from 'socket.io-client';
 import { LoginContainer  } from '../styles/containers'
 import { LoginInput, LoginButton } from '../styles/inputs'
 
-const socket = io('http://localhost:3000');
+const socket = io('https://task-online-chat.herokuapp.com/');
 
 const Login = () => {
     const { setLiveUser } = useContext(MessagesContext);

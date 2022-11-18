@@ -7,7 +7,7 @@ import '!style-loader!css-loader!react-toastify/dist/ReactToastify.css';
 import { SendIcon, MessageInput } from '../../styles/inputs'
 import { FooterContainer } from '../../styles/containers'
 
-const socket = io('http://localhost:3000');
+const socket = io('https://task-online-chat.herokuapp.com/');
 
 const MessagingFooter = () => {
     const { liveUser } = useContext(MessagesContext);
